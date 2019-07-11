@@ -221,17 +221,18 @@ mod2(5,4) => 1
 mod2(2,8) => 2
 mod2(7,4) => 3
 */
-function mod2(n1,n2){
-if(n1<n2){
+function mod (n1 , n2)
+{
+    s = 1;
+    while (n1>n2)
+    {
+        s = n1 - n2
+        if (n1<n2)
+        {
+          return n1;
+        }
 
-return n1
-
-}
-if(n1===n2){
-  return 0
-}
-
-return mod2((n1-n2),n2)
+    }
 
 }
 
